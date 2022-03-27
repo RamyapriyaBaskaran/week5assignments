@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="Test" verbose ="5">
+    <classes>
+      <class name="week5.assignments.CreateNewIncident"/>
+      <class name="week5.assignments.UpdateExistingIncident"/>
+	  <class name="week5.assignments.AssignIncident"/>
+	  <class name="week5.assignments.DeleteIncident"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
